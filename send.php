@@ -48,4 +48,13 @@ if (mysqli_query($conn, $sql)) {
 
 // Cerrar la conexión
 mysqli_close($conn);
+
+if ($TeamMembers===1){
+    echo "Sorry, we consider you an unqualified leader";
+}else{
+    echo "            <!-- Calendly inline widget begin -->
+<div class='calendly-inline-widget' data-url='https://calendly.com/d/cqpj-2nr-t5v/test001' style='min-width:320px;height:700px;'></div>
+<script type='text/javascript' src='https://assets.calendly.com/assets/external/widget.js' async></script>
+<!-- Calendly inline widget end -->";
+}
 ?>
