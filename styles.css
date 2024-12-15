@@ -1,0 +1,28 @@
+#titleOrigin{
+    justify-content: center;
+    text-align: center;
+}
+#Form_1{
+    justify-items: center;
+    align-items: center;
+    margin: 5px black;
+    width: auto;
+    border: solid 2px;
+    border-color: black;
+    border-radius: 10px;
+    padding: 7px;
+    background-image: linear-gradient(wheat, whitesmoke);
+    color: wh;
+}
+
+#content{
+    justify-items: center;
+}
+input{
+    border-radius: 5px;
+    margin: 2px;
+}
+input[type="radio"]:checked+label{
+    text-decoration: underline;
+
+}
